@@ -8,13 +8,13 @@ Step 2. The current year, month and day are initialized with present year, month
 
 Step 3. Day, month and year is read as input.
 
-Step 4. If the date is within limit (not considering future date for loop condition), goto step 4.1 otherwise goto step 5:
-	4.1 If year is leap year, month is February and day is betweeen 1 and 29, initialize valid=True and goto step 4.6 otherwise goto step 4.2
-	4.2 If year is not leap year, month is February and day is between 1 and 28, initialize valid=True and goto step 4.6 otherwise goto step 4.3
-	4.3 If month lies in [1,3,5,7,8,10,12] and day is between 1 and 31, initialize valid=True and goto step 4.6 otherwise goto step 4.4
-	4.4 If month lies in [4,6,9,11] and day is between 1 and 30, initialize valid=True and goto step 4.6 otherwise goto step 4.5
-	4.5 Initialize valid=False.
-	4.6 If valid=True and date is a future date, then valid=False else valid=True. Goto step 6.
+Step 4. If the date is within limit (not considering future date for loop condition), goto step 4.1 otherwise goto step 5:  
+	4.1 If year is leap year, month is February and day is betweeen 1 and 29, initialize valid=True and goto step 4.6 otherwise goto step 4.2  
+	4.2 If year is not leap year, month is February and day is between 1 and 28, initialize valid=True and goto step 4.6 otherwise goto step 4.3  
+	4.3 If month lies in [1,3,5,7,8,10,12] and day is between 1 and 31, initialize valid=True and goto step 4.6 otherwise goto step 4.4  
+	4.4 If month lies in [4,6,9,11] and day is between 1 and 30, initialize valid=True and goto step 4.6 otherwise goto step 4.5  
+	4.5 Initialize valid=False.  
+	4.6 If valid=True and date is a future date, then valid=False else valid=True. Goto step 6.  
 
 Step 5. Initialize valid=False
 
